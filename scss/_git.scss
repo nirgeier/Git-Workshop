@@ -1,0 +1,114 @@
+body {
+  direction: rtl;
+  font-family: 'Lato', 'Rubik', sans-serif;
+}
+
+.bg-primary {
+  /*background-color: #1bb398 !important;*/
+}
+
+.ninja {
+  color: #343a40;
+  background: #ffc107;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text-color {
+  color: white;
+  font-size: 1.25em;
+}
+
+.text-color2 {
+  color: #2C3E50;
+  text-decoration: underline;
+}
+
+.main-text {
+  color: #F8B500;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5), 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.portfolio-item {
+  direction: ltr;
+  text-align: center;
+  font-family: 'Doppio One';
+  font-size: 4.5em;
+  padding: 40px 0;
+  line-height: 80px;
+  border-radius: 25px;
+  color: white;
+}
+
+.portfolio-item-small {
+  font-size: 70%;
+}
+
+.git-title {
+  font-family: 'Signika Negative';
+  font-size: 1em;
+  color: #F8B500;
+  opacity: 0.95;
+}
+
+
+
+.portfolio-item2 {
+  background: #008C68;
+}
+
+.portfolio-item1 {
+  background: #130F0F;
+}
+
+.highlight-yellow {
+  background: yellow;
+  color: black;
+  font-size: 150%;
+}
+
+.highlight-inner {
+  color: white;
+  padding: 0 5px;
+  margin: 0 5px;
+  background: #FFC107;
+  color: #2C3E50;
+  border-radius: 3px;
+
+  &:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+  }
+}
+
+.about-lecturer {
+  font-size: 125%;
+  color: black;
+}
+
+.inner-link {
+  color: white;
+  direction: ltr;
+  text-align: left;
+  font-weight: normal;
+
+  &:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+  }
+}
+
+.footer-logo {
+  max-height: 75px;
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .desktop-only {
+    display: inline-block;
+  }
+}
