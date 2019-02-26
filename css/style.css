@@ -1,5 +1,4 @@
 @import "//fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300|Cabin";
-
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif, "Almoni Tzar AAA";
@@ -203,13 +202,6 @@ h6 {
   direction: rtl;
 }
 
-.botm-line {
-  background-color: #2b2b2b;
-  width: 34px;
-  height: 3px;
-  display: inline-block;
-}
-
 .section-title:hover .botm-line {
   width: 70px;
   /* For Safari 3.1 to 6.0 */
@@ -265,6 +257,14 @@ h3.txt-tl {
   text-align: right;
 }
 
+.download-syllabus {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: center;
+}
+
 .cta-txt h3 {
   font-size: 32px;
   margin-bottom: 10px;
@@ -274,12 +274,22 @@ h3.txt-tl {
 
 .cta-txt p {
   color: black;
+  font-family: Arimo;
+  font-size: 1.25em;
+  text-align: justify;
 }
 
 /****/
 
-.portfolio-box {
+.portfolio {
+  font-family: Arimo;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.portfolio-box img {
   margin-bottom: 15px;
+  border-radius: 50%;
 }
 
 .padding-right-zero {
@@ -416,59 +426,46 @@ a:hover {
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
-
   .navbar-toggle:hover,
   .navbar-toggle {
     background-color: #fff;
     color: #000;
   }
-
   .navbar-toggle {
     margin-top: 0px;
   }
-
   .navbar-default .navbar-nav>li>a {
     text-align: center;
   }
-
   .navbar-default .navbar-nav>.active>a,
   .navbar-default .navbar-nav>.active>a:focus,
   .navbar-default .navbar-nav>.active>a:hover,
   .navbar-default .navbar-nav>li>a:hover,
   .navbar-default .navbar-nav>li>a:focus {}
-
   .top-title {
     font-size: 15px;
   }
-
   .title {
     font-size: 50px;
   }
-
   .sub-title {
     font-size: 24px;
   }
-
   .footer-copyright {
     text-align: center;
   }
-
   .padding-right-zero {
     padding-right: 15px;
   }
-
   .section-title {
     margin-bottom: 15px;
   }
-
   .cta-txt h3 {
     font-size: 28px;
   }
-
   body {
     font-size: 14px;
   }
-
   h3.txt-tl {
     font-size: 20px;
   }
@@ -616,18 +613,15 @@ blockquote .blockquote-name {
   .numbers {
     padding: 0px;
   }
-
   .digit-spacer {
     font-size: 0.4em;
   }
-
   .digit {
     font-size: 4rem;
     padding: 0 10px;
     border-radius: 15px;
     display: inline-block;
   }
-
   .digit:after {
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
@@ -638,17 +632,14 @@ blockquote .blockquote-name {
   .numbers {
     padding: 3rem;
   }
-
   .digit-spacer {
     font-size: 1em;
   }
-
   .digit {
     font-size: 8rem;
     padding: 0 1.5rem;
     border-radius: 15px;
   }
-
   .digit:after {
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
@@ -744,7 +735,6 @@ blockquote .blockquote-name {
   0% {
     color: transparent;
   }
-
   100% {
     color: rgb(239, 79, 50);
   }
@@ -794,4 +784,8 @@ blockquote .blockquote-name {
   color: rgb(44, 62, 80);
   text-align: center;
   width: 200px;
+}
+
+#portfolio .counter-box {
+  flex: 1;
 }
