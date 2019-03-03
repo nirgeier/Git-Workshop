@@ -1,4 +1,5 @@
-@import "//fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300|Cabin";
+@import "//fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300|Cabin|Marvel";
+
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif, "Almoni Tzar AAA";
@@ -59,7 +60,7 @@ h6 {
   background-color: rgba(0, 0, 0, 0.41);
 }
 
-.nav > li > a {
+.nav>li>a {
   padding: 0px;
 }
 
@@ -77,23 +78,23 @@ h6 {
   letter-spacing: 2px;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
   color: #ffd34e;
   text-transform: uppercase;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
   color: #ffd34e;
 }
 
@@ -181,8 +182,7 @@ h6 {
 
 /****/
 
-.cta-info {
-}
+.cta-info {}
 
 .dec-tec {
   font-size: 34px;
@@ -202,6 +202,10 @@ h6 {
   text-align: right;
   font-family: Arimo;
   direction: rtl;
+}
+
+.head-title a {
+  color: rgb(32, 32, 32) !important;
 }
 
 .section-title:hover .botm-line {
@@ -305,9 +309,11 @@ h3.txt-tl {
 .validation {
   color: red;
   display: none;
-  margin: 0 0 20px;
+  margin: 5px 0 10px;
   font-weight: 400;
   font-size: 13px;
+  font-family: Arimo;
+  text-align: right;
 }
 
 #sendmessage {
@@ -343,8 +349,11 @@ h3.txt-tl {
 
 .btn-send {
   border-radius: 0px;
-  color: #000;
-  background-color: #ffd34e;
+  color: black;
+  background-color: rgb(224, 167, 80);
+  font-family: "Arimo";
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 a,
@@ -357,11 +366,19 @@ a:hover {
   padding: 15px 0px;
 }
 
-.location-info p span {
+.location-info {
+  font-family: Arimo;
+}
+
+.location-info p i {
   display: inline-block;
 }
 
-.location-info p span {
+.location-info a {
+  color: inherit;
+}
+
+.location-info p i {
   width: 40px;
   font-size: 24px;
   color: #666;
@@ -399,10 +416,15 @@ a:hover {
   padding: 20px 0px;
 }
 
+.footer-ltr {
+  direction: ltr;
+}
+
 .footer-copyright {
   color: #fff;
   line-height: 32px;
-  text-align: left;
+  text-align: center;
+  font-family: Arimo;
 }
 
 .footer-social {
@@ -428,47 +450,59 @@ a:hover {
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
+
   .navbar-toggle:hover,
   .navbar-toggle {
     background-color: #fff;
     color: #000;
   }
+
   .navbar-toggle {
     margin-top: 0px;
   }
-  .navbar-default .navbar-nav > li > a {
+
+  .navbar-default .navbar-nav>li>a {
     text-align: center;
   }
-  .navbar-default .navbar-nav > .active > a,
-  .navbar-default .navbar-nav > .active > a:focus,
-  .navbar-default .navbar-nav > .active > a:hover,
-  .navbar-default .navbar-nav > li > a:hover,
-  .navbar-default .navbar-nav > li > a:focus {
-  }
+
+  .navbar-default .navbar-nav>.active>a,
+  .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover,
+  .navbar-default .navbar-nav>li>a:hover,
+  .navbar-default .navbar-nav>li>a:focus {}
+
   .top-title {
     font-size: 15px;
   }
+
   .title {
     font-size: 50px;
   }
+
   .sub-title {
     font-size: 24px;
   }
+
   .footer-copyright {
     text-align: center;
   }
+
   .padding-right-zero {
     padding-right: 15px;
   }
+
   .section-title {
     margin-bottom: 15px;
   }
+
   .cta-txt h3 {
     font-size: 28px;
   }
+
   body {
     font-size: 14px;
   }
+
   h3.txt-tl {
     font-size: 20px;
   }
@@ -617,15 +651,18 @@ blockquote .blockquote-name {
   .numbers {
     padding: 0px;
   }
+
   .digit-spacer {
     font-size: 0.4em;
   }
+
   .digit {
     font-size: 4rem;
     padding: 0 10px;
     border-radius: 15px;
     display: inline-block;
   }
+
   .digit:after {
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
@@ -636,14 +673,17 @@ blockquote .blockquote-name {
   .numbers {
     padding: 3rem;
   }
+
   .digit-spacer {
     font-size: 1em;
   }
+
   .digit {
     font-size: 8rem;
     padding: 0 1.5rem;
     border-radius: 15px;
   }
+
   .digit:after {
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
@@ -706,8 +746,7 @@ blockquote .blockquote-name {
   background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 1));
 }
 
-.subjects-more {
-}
+.subjects-more {}
 
 .fill-text-1 {
   animation-delay: 1s;
@@ -737,6 +776,7 @@ blockquote .blockquote-name {
   0% {
     color: transparent;
   }
+
   100% {
     color: rgb(239, 79, 50);
   }
@@ -781,7 +821,7 @@ blockquote .blockquote-name {
   z-index: -2;
 }
 
-.tag > span {
+.tag>span {
   font-family: Cabin;
   display: inline-block;
   position: relative;
@@ -795,16 +835,26 @@ blockquote .blockquote-name {
 #portfolio .counter-box {
   box-sizing: border-box;
   font-family: Arimo;
-  background-color: #ffffff;
-  padding: 15px;
+  color: black;
+  padding: 15px 5px;
   border-radius: 5px;
+  background-color: #E0A750;
   box-shadow: 1px 1px 5px rgb(44, 62, 80);
 }
 
 .counter-box .counter {
   padding: 0;
+  font-family: Marvel;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .counter-box .counter-text {
   padding: 0;
+  font-weight: bold;
+}
+
+footer a {
+  font-size: 2.5em;
+  color: white;
 }
