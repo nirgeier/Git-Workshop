@@ -2,7 +2,6 @@
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif, "Almoni Tzar AAA";
-  font-family: "Arimo";
   overflow-x: hidden;
   direction: rtl;
   margin: 75px auto 0;
@@ -36,6 +35,16 @@ table {
   padding: 60px 0px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", "Almoni Tzar AAA", sans-serif;
+}
+
+/**media Queries**/
 .navbar-inner {
   max-width: 1200px;
 }
@@ -61,6 +70,7 @@ table {
 .navbar-brand {
   padding: 0px;
   height: inherit;
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-default .navbar-brand {
@@ -100,6 +110,16 @@ table {
   height: 75px;
 }
 
+@media (max-width: 768px) {
+  .fixed-top {
+    padding: 0 10px;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 0;
+  }
+}
+
 .wrapper {
   padding: 90px 0px 130px;
 }
@@ -112,6 +132,7 @@ table {
   line-height: 38px;
   letter-spacing: 3px;
   opacity: 1;
+  font-family: Arimo;
   padding: 20px 0;
   margin: 20px 0;
 }
@@ -178,6 +199,7 @@ table {
   font-size: 3em;
   font-weight: 700;
   text-align: right;
+  font-family: Arimo;
   direction: rtl;
 }
 
@@ -265,12 +287,14 @@ h3.txt-tl {
 
 .cta-txt p {
   color: black;
+  font-family: Arimo;
   font-size: 1.25em;
   text-align: justify;
 }
 
 /****/
 .portfolio {
+  font-family: Arimo;
   font-size: 1.25em;
   text-align: justify;
 }
@@ -294,6 +318,7 @@ h3.txt-tl {
   margin: 5px 0 10px;
   font-weight: 400;
   font-size: 13px;
+  font-family: Arimo;
   text-align: right;
 }
 
@@ -332,6 +357,7 @@ h3.txt-tl {
   border-radius: 0px;
   color: black;
   background-color: #e0a750;
+  font-family: "Arimo";
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -344,6 +370,10 @@ a:hover {
 .cont-title {
   font-size: 24px;
   padding: 15px 0px;
+}
+
+.location-info {
+  font-family: Arimo;
 }
 
 .location-info p i {
@@ -397,6 +427,7 @@ a:hover {
   color: #fff;
   line-height: 32px;
   text-align: center;
+  font-family: Arimo;
 }
 
 .footer-social {
@@ -414,6 +445,53 @@ a:hover {
 }
 
 /****/
+@media (min-width: 451px) and (max-width: 900px) {
+  .section-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 20px) and (max-width: 450px) {
+  .navbar-toggle:hover,
+  .navbar-toggle {
+    background-color: #fff;
+    color: #000;
+  }
+  .navbar-toggle {
+    margin-top: 0px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    text-align: center;
+  }
+  .top-title {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .sub-title {
+    font-size: 24px;
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+  .padding-right-zero {
+    padding-right: 15px;
+  }
+  .section-title {
+    margin-bottom: 15px;
+  }
+  .cta-txt h3 {
+    font-size: 28px;
+  }
+  body {
+    font-size: 14px;
+  }
+  h3.txt-tl {
+    font-size: 20px;
+  }
+}
+
 #topNav {
   width: 100%;
 }
@@ -427,6 +505,7 @@ a:hover {
 .navbar-item {
   font-size: 1.25em;
   font-weight: bold;
+  font-family: Arimo;
   letter-spacing: 1px;
   color: wheat;
 }
@@ -506,7 +585,8 @@ blockquote {
   position: relative;
   direction: ltr;
   /*Font*/
-  font-family: "Open Sans";
+  font-family: Georgia, serif;
+  font-family: Open Sans;
   font-size: 1.25em;
   line-height: 1;
   color: #666;
@@ -558,6 +638,51 @@ blockquote .blockquote-name {
   display: inline-block;
   font-size: 1.5em;
   padding: 0 5px;
+}
+
+@media (max-width: 576px) {
+  blockquote {
+    padding: 10px 10px 0 45px;
+    margin: 40px 0 40px;
+  }
+  .numbers {
+    padding: 0px;
+  }
+  .digit-spacer {
+    font-size: 0.4em;
+  }
+  .digit {
+    font-size: 4rem;
+    padding: 0 5px;
+  }
+  .digit:after {
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .numbers {
+    padding: 3rem;
+  }
+  .digit-spacer {
+    font-size: 1em;
+  }
+  .digit {
+    font-size: 8rem;
+    padding: 0 1.5rem;
+    border-radius: 15px;
+  }
+  .digit:after {
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .section-title {
+    margin-bottom: 15px;
+  }
 }
 
 .fa-custom {
@@ -700,6 +825,7 @@ blockquote .blockquote-name {
 }
 
 .tag > span {
+  font-family: Cabin;
   display: inline-block;
   position: relative;
   top: -40px;
@@ -712,6 +838,7 @@ blockquote .blockquote-name {
 #portfolio .counter-box {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Arimo;
   color: black;
   padding: 15px 5px;
   border-radius: 5px;
@@ -735,109 +862,4 @@ blockquote .blockquote-name {
 footer a {
   font-size: 2.5em;
   color: white;
-}
-
-@media (max-width: 768px) {
-  .wrapper {
-    padding: 0;
-  }
-  .fixed-top {
-    padding: 0 10px;
-  }
-  .navbar-collapse {
-    background: rgba(0, 0, 0, 0.8);
-    border-top: 0;
-  }
-}
-
-@media (min-width: 451px) and (max-width: 900px) {
-  .section-title {
-    margin-bottom: 15px;
-  }
-}
-
-@media (min-width: 20px) and (max-width: 450px) {
-  .navbar-toggle:hover,
-  .navbar-toggle {
-    background-color: #fff;
-    color: #000;
-  }
-  .navbar-toggle {
-    margin-top: 0px;
-  }
-  .navbar-default .navbar-nav > li > a {
-    text-align: center;
-  }
-  .top-title {
-    font-size: 15px;
-  }
-  .title {
-    font-size: 50px;
-  }
-  .sub-title {
-    font-size: 24px;
-  }
-  .footer-copyright {
-    text-align: center;
-  }
-  .padding-right-zero {
-    padding-right: 15px;
-  }
-  .section-title {
-    margin-bottom: 15px;
-  }
-  .cta-txt h3 {
-    font-size: 28px;
-  }
-  body {
-    font-size: 14px;
-  }
-  h3.txt-tl {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  blockquote {
-    padding: 10px 10px 0 45px;
-    margin: 40px 0 40px;
-  }
-  .numbers {
-    padding: 0px;
-  }
-  .digit-spacer {
-    font-size: 0.4em;
-  }
-  .digit {
-    font-size: 4rem;
-    padding: 0 5px;
-  }
-  .digit:after {
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .numbers {
-    padding: 3rem;
-  }
-  .digit-spacer {
-    font-size: 1em;
-  }
-  .digit {
-    font-size: 8rem;
-    padding: 0 1.5rem;
-    border-radius: 15px;
-  }
-  .digit:after {
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .section-title {
-    margin-bottom: 15px;
-  }
 }
