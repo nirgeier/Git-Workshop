@@ -39,6 +39,7 @@
 
   //jQuery to collapse the navbar on scroll
   $(window).on("scroll touchmove", function () {
+    alert('scroll');
     $(".navbar-nav").removeClass("show");
   });
 
