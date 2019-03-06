@@ -27,7 +27,7 @@
     event.preventDefault();
 
     jQuery.ajax({
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf_4jvAw7Y8LaL5Qf_gMfMbxd8KsZo9CyJWE5nzQv2OpO5STw/formResponse",
+      "url": "http://docs.google.com/forms/d/e/1FAIpQLSf_4jvAw7Y8LaL5Qf_gMfMbxd8KsZo9CyJWE5nzQv2OpO5STw/formResponse",
       "method": "POST",
       data: $(this).serialize(),
       done: function (data) {
