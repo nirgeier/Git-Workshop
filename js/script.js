@@ -27,8 +27,9 @@
     event.preventDefault();
 
     jQuery.ajax({
-      "url": "http://docs.google.com/forms/d/e/1FAIpQLSf_4jvAw7Y8LaL5Qf_gMfMbxd8KsZo9CyJWE5nzQv2OpO5STw/formResponse",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf_4jvAw7Y8LaL5Qf_gMfMbxd8KsZo9CyJWE5nzQv2OpO5STw/formResponse",
       "method": "POST",
+      crossDomain: true,
       data: $(this).serialize(),
       done: function (data) {
         alert('form submitted');
