@@ -20,27 +20,6 @@
   // });
 
 
-  /**
-   * Get the form data
-   */
-  $(".contactForm").submit(function (event) {
-    event.preventDefault();
-    let data = $(this).serialize();
-    data += "&entry.1945533881=" + window.navigator.userAgent;
-
-    jQuery.ajax({
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf_4jvAw7Y8LaL5Qf_gMfMbxd8KsZo9CyJWE5nzQv2OpO5STw/formResponse",
-      "method": "POST",
-      crossDomain: true,
-      dataType: 'jsonp',
-      data: data,
-      done: function (data) {
-        alert('form submitted');
-      }
-    });
-
-  });
-
   //jQuery to collapse the navbar on scroll
   $(window).on("scroll scrollstart", function () {
     $(".navbar-nav").removeClass("show");
