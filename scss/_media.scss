@@ -1,4 +1,17 @@
 @media (max-width: 768px) {
+  .head-title {
+    text-align: center;
+  }
+  .portfolio.section-title {
+    text-align: center;
+  }
+
+  blockquote {
+    line-height: 1.5em;
+    &::before {
+      top: 15px;
+    }
+  }
   .title {
     font-size: 100px;
   }
