@@ -252,36 +252,33 @@
           </div>
         </div>
         <div class="col-md-6 col-sm-6 border-left">
-          <h3 class="cont-title text-right">מלא את הטופס ואנו נחזור אליך בהקדם</h3>
-          <div id="errormessage"></div>
           <div class="contact-info">
             <form role="form" class="contactForm">
+              <h3 class="cont-title text-right">השאירו פרטים ונחזור אליכם בהקדם </h3>
+
               <div class="form-group">
-                <input type="text" name="entry.796516389" class="form-control" id="name" placeholder="שם מלא" data-rule="minlen:4"
-                       data-msg="יש להזין לפחות 4 תווים" />
-                <div class="validation"></div>
+                <input type="text" name="entry.796516389" class="form-control" placeholder="שם מלא" required minlength="4" />
+                <div class="validation">יש להזין לפחות 4 תווים</div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="entry.779770384" id="email" placeholder="מייל" data-rule="email"
-                       data-msg="נא להזין מייל חוקי" />
-                <div class="validation"></div>
+                <input type="email" class="form-control" name="entry.779770384" placeholder="מייל" required />
+                <div class="validation">נא להזין מייל חוקי</div>
               </div>
 
               <div class="form-group">
-                <input type="number" class="form-control" name="entry.492435906" id="subject" placeholder="טלפון"
-                       data-rule="minlen:4" data-msg="יש להזין מספר טלפן חוקי" />
-                <div class="validation"></div>
+                <input type="number" class="form-control" name="entry.492435906" placeholder="טלפון" required minlength="9" />
+                <div class="validation">יש להזין מספר טלפן חוקי</div>
               </div>
 
               <div class="form-group">
-                <textarea class="form-control" name="entry.2027580129" rows="5" data-rule="" data-msg="אנא הזן הודעה"
-                          placeholder="כתוב לנו"></textarea>
-                <div class="validation"></div>
+                <textarea class="form-control" name="entry.2027580129" rows="5" data-rule="" placeholder="כתוב לנו"></textarea>
               </div>
               <button type="submit" class="btn btn-send">שלח</button>
             </form>
+            <h2 class="form-feedback d-none text-right">
+              תודה רבה. נחזור אליכם בהקדם
+            </h2>
           </div>
-
         </div>
         <div class="col-md-6 col-sm-6 text-right">
           <h3 class="cont-title">מכללת מגמות</h3>
@@ -318,9 +315,7 @@
           crossorigin="anonymous"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/wow.js"></script>
-  <script src="js/custom.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/contactform.js"></script>
 
 </body>
 
