@@ -55,7 +55,7 @@ table {
   background-color: rgba(0, 0, 0, 0.41);
 }
 
-.nav > li > a {
+.nav>li>a {
   padding: 0px;
 }
 
@@ -72,23 +72,23 @@ table {
   letter-spacing: 2px;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
   color: #ffd34e;
   text-transform: uppercase;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
   color: #ffd34e;
 }
 
@@ -162,8 +162,7 @@ table {
 
 /****/
 
-.cta-info {
-}
+.cta-info {}
 
 .dec-tec {
   font-size: 34px;
@@ -327,7 +326,7 @@ h3.txt-tl {
 .btn-send {
   border-radius: 0px;
   color: black;
-  background-color: rgb(224, 167, 80);
+  background-color: rgb(251, 128, 5);
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -461,7 +460,6 @@ a:hover {
   display: inline-block;
 
   &.digit-color {
-    color: rgb(239, 79, 50);
     color: rgb(255, 211, 0);
   }
 
@@ -491,6 +489,7 @@ a:hover {
     border-bottom-right-radius: 0.8rem;
   }
 }
+
 blockquote {
   display: block;
   background: rgb(237, 237, 237);
@@ -544,7 +543,7 @@ blockquote .blockquote-name {
 
 .git {
   transform: rotate(-5deg);
-  color: rgb(239, 79, 50);
+  color: rgb(251, 128, 5);
   display: inline-block;
   font-size: 1.5em;
   padding: 0 5px;
@@ -591,7 +590,7 @@ blockquote .blockquote-name {
 
 .txt-tl {
   text-align: right;
-  color: tomato;
+  color: rgb(251, 128, 5);
   font-weight: bold;
   min-height: 40px;
 }
@@ -600,8 +599,7 @@ blockquote .blockquote-name {
   background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 1));
 }
 
-.subjects-more {
-}
+.subjects-more {}
 
 .fill-text-1 {
   animation-delay: 1s;
@@ -633,7 +631,7 @@ blockquote .blockquote-name {
   }
 
   100% {
-    color: rgb(239, 79, 50);
+    color: rgb(251, 128, 5);
   }
 }
 
@@ -676,7 +674,7 @@ blockquote .blockquote-name {
   z-index: -2;
 }
 
-.tag > span {
+.tag>span {
   display: inline-block;
   position: relative;
   top: -40px;
@@ -691,7 +689,7 @@ blockquote .blockquote-name {
   color: black;
   padding: 15px 5px;
   border-radius: 5px;
-  background-color: #e0a750;
+  background-color: rgb(251, 128, 5);
   box-shadow: 1px 1px 5px rgb(44, 62, 80);
 }
 

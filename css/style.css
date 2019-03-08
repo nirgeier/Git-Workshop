@@ -1,5 +1,4 @@
 @import url("//fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300|Cabin|Marvel");
-
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif, "Almoni Tzar AAA";
@@ -55,7 +54,7 @@ table {
   background-color: rgba(0, 0, 0, 0.41);
 }
 
-.nav>li>a {
+.nav > li > a {
   padding: 0px;
 }
 
@@ -72,23 +71,23 @@ table {
   letter-spacing: 2px;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
   color: #ffd34e;
   text-transform: uppercase;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
   color: #ffd34e;
 }
 
@@ -160,7 +159,7 @@ table {
 .btn-submit:hover {
   color: #ffd34e;
   -webkit-box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.5);
-  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.5);
 }
 
 /****/
@@ -232,7 +231,7 @@ h3.txt-tl {
 
 .section {
   position: relative;
-  padding: 40px 0 30px 0;
+  padding: 88px 0 67px 0;
   display: block;
 }
 
@@ -242,18 +241,18 @@ h3.txt-tl {
 
 .download-syllabus {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
@@ -332,7 +331,7 @@ h3.txt-tl {
 .btn-send {
   border-radius: 0px;
   color: black;
-  background-color: #e0a750;
+  background-color: #fb8005;
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -434,8 +433,8 @@ a:hover {
 
 .navbar-nav li {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .numbers {
@@ -459,15 +458,14 @@ a:hover {
   margin: 0 3px;
   color: transparent;
   -webkit-animation: fill 0.5s;
-  animation: fill 0.5s;
+          animation: fill 0.5s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
   border-radius: 15px;
   display: inline-block;
 }
 
 .digit.digit-color {
-  color: #ef4f32;
   color: #ffd300;
 }
 
@@ -514,9 +512,9 @@ blockquote {
   border-left: 1em solid #78c0a8;
   /*Box Shadow - (Optional)*/
   -webkit-box-shadow: -2px 0 20px rgba(0, 0, 0, 0.25), -1px -1px 10px #ccc, 5px 5px 10px #ccc;
-  box-shadow: -2px 0 20px rgba(0, 0, 0, 0.25), -1px -1px 10px #ccc, 5px 5px 10px #ccc;
+          box-shadow: -2px 0 20px rgba(0, 0, 0, 0.25), -1px -1px 10px #ccc, 5px 5px 10px #ccc;
   -webkit-box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.25), 1px 2px 5px #ccc, 2px 10px 10px rgba(32, 32, 32, 0.15);
-  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.25), 1px 2px 5px #ccc, 2px 10px 10px rgba(32, 32, 32, 0.15);
+          box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.25), 1px 2px 5px #ccc, 2px 10px 10px rgba(32, 32, 32, 0.15);
   border-radius: 15px;
 }
 
@@ -552,8 +550,8 @@ blockquote .blockquote-name {
 
 .git {
   -webkit-transform: rotate(-5deg);
-  transform: rotate(-5deg);
-  color: #ef4f32;
+          transform: rotate(-5deg);
+  color: #fb8005;
   display: inline-block;
   font-size: 1.5em;
   padding: 0 5px;
@@ -600,7 +598,7 @@ blockquote .blockquote-name {
 
 .txt-tl {
   text-align: right;
-  color: tomato;
+  color: #fb8005;
   font-weight: bold;
   min-height: 40px;
 }
@@ -611,41 +609,40 @@ blockquote .blockquote-name {
 
 .fill-text-1 {
   -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .fill-text-2 {
   -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .fill-text-3 {
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fill-text-4 {
   -webkit-animation-delay: 2.5s;
-  animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .fill-text-5 {
   -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .fill-text-6 {
   -webkit-animation-delay: 3.5s;
-  animation-delay: 3.5s;
+          animation-delay: 3.5s;
 }
 
 @-webkit-keyframes fill {
   0% {
     color: transparent;
   }
-
   100% {
-    color: #ef4f32;
+    color: #fb8005;
   }
 }
 
@@ -653,9 +650,8 @@ blockquote .blockquote-name {
   0% {
     color: transparent;
   }
-
   100% {
-    color: #ef4f32;
+    color: #fb8005;
   }
 }
 
@@ -667,7 +663,6 @@ blockquote .blockquote-name {
   border-radius: 2px;
   margin: 10px;
   display: inline-block;
-  display: none;
   z-index: 0;
   color: black;
   background: #ffffd8;
@@ -687,7 +682,7 @@ blockquote .blockquote-name {
 
 .tag:before {
   -webkit-transform: rotate(2deg);
-  transform: rotate(2deg);
+          transform: rotate(2deg);
   top: -3px;
   left: 2px;
   z-index: -1;
@@ -695,13 +690,13 @@ blockquote .blockquote-name {
 
 .tag:after {
   -webkit-transform: rotate(-2deg);
-  transform: rotate(-2deg);
+          transform: rotate(-2deg);
   top: -78px;
   left: 2px;
   z-index: -2;
 }
 
-.tag>span {
+.tag > span {
   display: inline-block;
   position: relative;
   top: -40px;
@@ -713,13 +708,13 @@ blockquote .blockquote-name {
 
 #portfolio .counter-box {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   color: black;
   padding: 15px 5px;
   border-radius: 5px;
-  background-color: #e0a750;
+  background-color: #fb8005;
   -webkit-box-shadow: 1px 1px 5px #2c3e50;
-  box-shadow: 1px 1px 5px #2c3e50;
+          box-shadow: 1px 1px 5px #2c3e50;
 }
 
 .counter-box .counter {
@@ -743,39 +738,30 @@ footer a {
   .subjects-more {
     display: none;
   }
-
   .head-title {
     text-align: center;
   }
-
   .portfolio.section-title {
     text-align: center;
   }
-
   blockquote {
     line-height: 1.5em;
   }
-
   blockquote::before {
     top: 15px;
   }
-
   .title {
     font-size: 100px;
   }
-
   .sub-title {
     font-size: 3em;
   }
-
   .wrapper {
     padding: 0;
   }
-
   .fixed-top {
     padding: 0 10px;
   }
-
   .navbar-collapse {
     background: rgba(0, 0, 0, 0.8);
     border-top: 0;
@@ -789,53 +775,41 @@ footer a {
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
-
   .navbar-toggle:hover,
   .navbar-toggle {
     background-color: #fff;
     color: #000;
   }
-
   .navbar-toggle {
     margin-top: 0px;
   }
-
-  .navbar-default .navbar-nav>li>a {
+  .navbar-default .navbar-nav > li > a {
     text-align: center;
   }
-
   .top-title {
     font-size: 15px;
   }
-
   .title {
     font-size: 50px;
   }
-
   .sub-title {
     font-size: 24px;
   }
-
   .footer-copyright {
     text-align: center;
   }
-
   .padding-right-zero {
     padding-right: 15px;
   }
-
   .section-title {
     margin-bottom: 15px;
   }
-
   .cta-txt h3 {
     font-size: 28px;
   }
-
   body {
     font-size: 14px;
   }
-
   h3.txt-tl {
     font-size: 20px;
   }
@@ -846,20 +820,16 @@ footer a {
     padding: 10px 10px 0 45px;
     margin: 40px 0 40px;
   }
-
   .numbers {
     padding: 0px;
   }
-
   .digit-spacer {
     font-size: 0.4em;
   }
-
   .digit {
     font-size: 4rem;
     padding: 0 5px;
   }
-
   .digit:after {
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
@@ -870,17 +840,14 @@ footer a {
   .numbers {
     padding: 3rem;
   }
-
   .digit-spacer {
     font-size: 1em;
   }
-
   .digit {
     font-size: 8rem;
     padding: 0 1.5rem;
     border-radius: 15px;
   }
-
   .digit:after {
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
