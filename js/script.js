@@ -51,6 +51,7 @@
           crossDomain: true,
           data: data,
           contentType: "application/josn",
+          dataType: 'jsonp',
           complete: function () {
             $('form.contactForm').hide();
             $('.form-feedback').removeClass('d-none');
