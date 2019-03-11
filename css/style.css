@@ -254,11 +254,6 @@ h3.txt-tl {
   background-size: cover;
 }
 
-.section {
-  position: relative;
-  display: block;
-}
-
 .cta-txt {
   text-align: right;
 }
@@ -810,6 +805,10 @@ footer a {
   75% {
     color: transparent;
   }
+}
+
+.table-contact a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {

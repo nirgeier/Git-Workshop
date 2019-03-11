@@ -764,6 +764,11 @@ footer a {
   25%,
   75% {
     color: transparent;
+  }
+}
 
+.table-contact {
+  a:hover {
+    text-decoration: underline;
   }
 }
